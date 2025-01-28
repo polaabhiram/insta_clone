@@ -1,0 +1,305 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+.left-panel{
+    width:260px;
+    height:875px;
+    padding:10px;
+    margin-right:5px;
+    border-right:1px solid rgba(79, 75, 75,0.4);
+    position: fixed;
+    
+    
+    
+    
+    
+}
+.logo-imagep{
+    width:220px;
+    height: 83px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.logo-image{
+    width:180px;
+    height: 63px;
+    margin-top:10px;
+    background-image: url(/text-logo.png);
+    background-size: contain;
+    background-repeat:no-repeat;
+    margin-left:5px;
+
+}
+
+.logo-image:hover{
+    cursor:pointer;
+    
+}
+
+.elements{
+    width:220px;
+    height:650px;
+    margin-top:5px;
+    display:flex;
+    flex-direction: column;
+    
+    
+    
+
+}
+
+
+.ele{
+    display: flex;
+    width:220px;
+    height: 48px;
+    border-radius:8px;
+    align-items:center;
+    margin-top:5px;
+    
+
+}
+.ele a{
+    text-decoration: none;
+    margin-left:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1.1rem;
+    color:black;
+    
+    
+}
+
+
+.ele:hover{
+    background-color: rgba(79, 75, 75,0.1);
+    cursor:pointer;
+}
+.ele i{
+    padding:10px;
+    color:black;
+    margin-bottom: 3px;
+}
+
+.bottom-box{
+    width: 220px;
+    display: flex;
+    flex-flow:column;    
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+    position: relative;
+    left:260px;
+    width:80%;
+    
+    
+}
+
+.right-panel{
+    width:320px;
+    height:570px;
+    margin-top:20px;
+    margin-right:210px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.profile{
+    width:290px;
+    height: 50px;
+    margin: right 10px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top:5px;
+    
+    
+}
+
+.profile:hover{
+    cursor: pointer;
+}
+
+.pic{
+    width:45px;
+    height:45px;
+    border-radius:50%;
+    background-image: url(/WhatsApp\ Image\ 2024-07-10\ at\ 22.02.40.jpeg);
+    background-size: cover;
+    
+}
+
+.switch a{
+    text-decoration:none;
+    color:#0095F6;
+    font-size: 0.85rem;
+}
+
+.det-first{
+    color:black;
+    font-weight: 550;
+    font-family: sans-serif;
+    font: size 0.65rem;
+}
+
+.det-second{
+    color:#A8A8A8;
+}
+
+
+.sug{
+    width:320px;
+    height:20px;
+    display: flex;
+    justify-content: space-around;
+    
+    align-content: center;
+    margin-top:10px;
+}
+
+.sug-left{
+    width:124px;
+    height:11px;
+    color:rgb(41, 37, 37);
+}
+
+.sug-right{
+    width:auto;
+    height:16px;
+    color:black
+    
+}
+
+.sug-right:hover{
+    cursor: pointer;
+}
+
+.right-box{
+    display:flex;
+    flex-flow:column wrap;
+}
+
+.abhi{
+    background-image: url(/images/WhatsApp\ Image\ 2024-07-03\ at\ 20.36.34.jpeg);
+    background-size: cover;
+    
+}
+
+.rahul{
+    background-image: url(/images/Rahul.jpeg);
+    background-size: cover;
+}
+
+.bhargav{
+    background-image: url(/images/bhargav.jpeg);
+    background-size: cover;
+}
+
+.priyatam{
+    background-image: url(/images/priyatham.jpeg);
+    background-size: cover;
+}
+
+.madhu{
+    background-image:url(/images/madhu.jpeg);
+    background-size: cover;
+}
+
+.jayanth{
+    background-image: url(/images/jayanth.jpeg);
+    background-size: cover;
+}
+
+.right-foot{
+    width: 287px;
+    height:112px;
+    
+    margin-top:19px
+}
+
+.foot-one li{
+    list-style-type: none;
+    height:16px;
+    margin:5px;
+    
+    font-size:0.75rem
+}
+
+.foot-one{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    
+}
+
+.foot-two p{
+    font-size: 0.85rem;
+    text-align:center;
+}
+.footer-two{
+    margin-top: 20px;
+    padding: 5px;
+    align-self: flex-end;
+}
+
+.main{
+    display:flex;
+    align-items: center;
+    
+    flex-direction: column;
+    width:80%;
+    
+    
+    
+    
+}
+
+.story-container{
+    width:69%;
+    height:102px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.story{
+    height: 60px;
+    width: 60px;
+    border-radius:50%;
+    border:2px solid white;
+    outline:3px solid rgba(79, 75, 75,0.3);
+    
+    
+}
+
+.story:hover{
+    cursor: pointer;
+}
+
+.content{
+    width:86%;
+    height:700px;
+    margin-top:20px;
+    background-color:#A8A8A8;
+    opacity: .4;
+    overflow-y:scroll;
+    
+    
+
+}
+
+.foot-one li::after{
+    content: ".";
+}
