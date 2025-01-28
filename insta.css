@@ -29,7 +29,7 @@
     width:180px;
     height: 63px;
     margin-top:10px;
-    background-image: url(/text-logo.png);
+    background-image: url(/insta_clone/text-logo.png);
     background-size: contain;
     background-repeat:no-repeat;
     margin-left:5px;
@@ -132,7 +132,7 @@
     width:45px;
     height:45px;
     border-radius:50%;
-    background-image: url(/WhatsApp\ Image\ 2024-07-10\ at\ 22.02.40.jpeg);
+    background-image: url(//insta_clone/WhatsApp\ Image\ 2024-07-10\ at\ 22.02.40.jpeg);
     background-size: cover;
     
 }
@@ -188,33 +188,33 @@
 }
 
 .abhi{
-    background-image: url(/images/WhatsApp\ Image\ 2024-07-03\ at\ 20.36.34.jpeg);
+    background-image: url(/insta_clone/images/WhatsApp\ Image\ 2024-07-03\ at\ 20.36.34.jpeg);
     background-size: cover;
     
 }
 
 .rahul{
-    background-image: url(/images/Rahul.jpeg);
+    background-image: url(/insta_clone/images/Rahul.jpeg);
     background-size: cover;
 }
 
 .bhargav{
-    background-image: url(/images/bhargav.jpeg);
+    background-image: url(/insta_clone/images/bhargav.jpeg);
     background-size: cover;
 }
 
 .priyatam{
-    background-image: url(/images/priyatham.jpeg);
+    background-image: url(/insta_clone/images/priyatham.jpeg);
     background-size: cover;
 }
 
 .madhu{
-    background-image:url(/images/madhu.jpeg);
+    background-image:url(/insta_clone/images/madhu.jpeg);
     background-size: cover;
 }
 
 .jayanth{
-    background-image: url(/images/jayanth.jpeg);
+    background-image: url(/insta_clone/images/jayanth.jpeg);
     background-size: cover;
 }
 
